@@ -7,7 +7,7 @@ float_var = 3.14
 print("Float Variable:", float_var)
 
 # String
-string_var = "Hello, World!"
+string_var = "Hello, World this is Prathmesh!"
 print("String Variable:", string_var)
 
 # List
