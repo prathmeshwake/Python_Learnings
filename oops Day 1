@@ -1,0 +1,13 @@
+class Student():  #defining class here
+    def __init__(self, fullname, classgrade,marks): #creating function with __init__ (here we need to give two underscores before and after init)
+        self.name = fullname   #self keyword is used for relationship bw class and objects
+        self.grade = classgrade
+        self.marks = marks
+student1 = Student("Parth" , 10, 100)
+print(student1.name, student1.grade, student1.marks)
+student2 = Student("Komal" , 10, 90)
+print(student2.name, student2.grade, student2.marks)
+student3 = Student("Nishi" , 10, 100)
+print(student3.name, student3.grade, student3.marks)
+student4 = Student("Sume" , 10, 80)
+print(student4.name, student4.grade, student4.marks)
