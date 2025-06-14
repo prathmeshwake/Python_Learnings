@@ -1,7 +1,7 @@
 class Student():  #defining class here
-    def __init__(self, fullname, classgrade,marks): #creating function with __init__ (here we need to give two underscores before and after init)
+    def __init__(self, fullname, classgrade,marks): #creating function with __init__ (here we need to give two underscores before and after init.also known as method)
         self.name = fullname   #self keyword is used for relationship bw class and objects
-        self.grade = classgrade
+        self.grade = classgrade # this 3 self lines are known as attributes
         self.marks = marks
 student1 = Student("Parth" , 10, 100)
 print(student1.name, student1.grade, student1.marks)
